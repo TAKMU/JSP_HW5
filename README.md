@@ -1,6 +1,17 @@
-# JSP_HW5
-Homework for Allan Miyazono, Antonio Nápoles, Alejandro Mejía
+# Job Shop Scheduling Problem (JSSP) — Systematic & Heuristic Search Evaluation
 
+**Authors:** Allan Miyazono, Antonio Nápoles, Alejandro Mejía  
+**Course:** Foundations of Artificial Intelligence  
+
+---
+
+## 1. Overview and Architecture
+This repository provides a modular, reproducible benchmark of three state-space search paradigms to solve the Job Shop Scheduling Problem (JSSP) minimizing makespan ($C_{\max}$):
+1. **Uninformed Search:** Iterative Cost-Bounding Search (Cost-Bounded DFS / IDMS).
+2. **Informed Heuristic Search:** Weighted A* ($W \in \{1.0, 3.0\}$) equipped with Job-Bound ($H_1$) and Machine-Bound Bottleneck ($H_2$) heuristics.
+3. **Local Search:** Simulated Annealing comparing Pairwise Swap ($\mathcal{N}_1$) and Shift/Insertion ($\mathcal{N}_2$) neighborhoods with adaptive temperature schedules.
+
+---
 
 
 
