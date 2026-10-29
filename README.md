@@ -26,6 +26,7 @@ This repository provides a modular, reproducible benchmark of three state-space 
 
 ## Data
 ###weighted A
+
 The `instances/` directory contains the input datasets used by Weighted A*:
 - `benchmarkA*.txt`: standard benchmark instances.
 - `data_easy.txt`: generated JSSP instances.
