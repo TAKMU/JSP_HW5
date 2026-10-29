@@ -25,7 +25,7 @@ This repository provides a modular, reproducible benchmark of three state-space 
 | `W_A*.py` | Weighted A* implementation with H1/H2 heuristics and automatic CSV/JSON logging |
 
 ## Data
-###weighted A
+### weighted A
 
 The `instances/` directory contains the input datasets used by Weighted A*:
 - `benchmarkA*.txt`: standard benchmark instances.
