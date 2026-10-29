@@ -25,7 +25,7 @@ This repository provides a modular, reproducible benchmark of three state-space 
 | `W_A*.py` | Weighted A* implementation with H1/H2 heuristics and automatic CSV/JSON logging |
 
 ## Data
-**weighted A**
+###weighted A
 The `instances/` directory contains the input datasets used by Weighted A*:
 - `benchmarkA*.txt`: standard benchmark instances.
 - `data_easy.txt`: generated JSSP instances.
@@ -54,8 +54,10 @@ python3 'W_A*.py'
 The script automatically reads the JSSP instances from `instances/` and evaluates the H1 and H2 heuristics using weights $W \in \{1.0, 3.0, 5.0\}$.
 Each instance and configuration has a 60-second time limit. The experiments measure makespan, execution time, expanded nodes, maximum frontier size, and execution status.
 The script automatically generates the following logs:
+
 - `results/resultados_weighted_a_star.csv`
 - `results/resultados_weighted_a_star.json`
+  
 These files are generated automatically when the script finishes and can be used to reproduce the experimental comparisons.
 
 ## Results (`results/`)
@@ -65,7 +67,7 @@ These files are generated automatically when the script finishes and can be used
 - `history.csv`: convergence curve of each run.
 - `summary.csv`: best, mean, standard deviation, worst, gap and success rate per instance and neighborhood.
 
-**Weighted A* Results**
+### Weighted A* Results
 - `resultados_weighted_a_star.csv`: automatically generated experimental records for H1 and H2 with weights 1.0, 3.0, and 5.0.
 - `resultados_weighted_a_star.json`: JSON version of the same experimental records.
 Both files contain the instance identifier, heuristic, weight, makespan, execution time, expanded nodes, maximum frontier size, and execution status (`FEASIBLE`, `TIMEOUT`, or `NO_SOLUTION`).
