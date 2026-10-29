@@ -25,11 +25,13 @@ This repository provides a modular, reproducible benchmark of three state-space 
 | `W_A*.py` | Weighted A* implementation with H1/H2 heuristics and automatic CSV/JSON logging |
 
 ## Data
-### weighted A
+### Weighted A* Instances
 
 The `instances/` directory contains the input datasets used by Weighted A*:
+
 - `benchmarkA*.txt`: standard benchmark instances.
 - `data_easy.txt`: generated JSSP instances.
+  
 Each instance is declared using the keyword `instance`, followed by its identifier and a nested Python list of jobs. Each operation is represented by a pair `(machine_id, processing_time)`. Machine identifiers are zero-based.
 The Weighted A* experiments evaluate 22 instances in total: 20 generated instances and 2 standard benchmarks.
 
