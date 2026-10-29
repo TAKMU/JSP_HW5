@@ -5,6 +5,9 @@ import csv
 import json
 import re
 import ast
+#GITHUB
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
 
 class NodoJSP:
 #self es decir como nodo (permitiendo crear diferentes nodos), por eso se crea el objeto
@@ -214,16 +217,20 @@ def parse_instances(file_content_or_path):
     return instancias
 
 # Lista de archivos a evaluar con su respectiva etiqueta
+
+
 archivos_benchmark = [
-   ("benchmarkA*.txt", "estandar"),
-    ("data_easy.txt", "generada")
+    (BASE_DIR / "instances" / "benchmarkA*.txt", "estandar"),
+    (BASE_DIR / "instances" / "data_easy.txt", "generada")
 ]
 
 configuraciones = [
     ("H1", 1.0),
     ("H1", 3.0),
+    ("H1", 5.0),
     ("H2", 1.0),
     ("H2", 3.0),
+    ("H2", 5.0),
 ]
 TIEMPO_LIMITE = 60.0
 registros = []
@@ -248,13 +255,13 @@ for ruta, etiqueta in archivos_benchmark:
                 limite_tiempo_segundos= TIEMPO_LIMITE
             )
 
-            status = "TIMEOUT" if t_calc == "TIMEOUT" else ("feasible" if nodo_sol else "NO_SOLUTION")
+            status = "TIMEOUT" if t_calc == "TIMEOUT" else ("FEASIBLE" if nodo_sol else "NO_SOLUTION")
             makespan_val = nodo_sol.g if nodo_sol else None
             tiempo_val = t_calc if status != "TIMEOUT" else f">{TIEMPO_LIMITE}"
 
             # Guardar en memoria para exportar
             registros.append({
-                "archivo_origen": ruta,
+                "archivo_origen": str(ruta.relative_to(BASE_DIR)),
                 "conjunto": etiqueta,
                 "instancia": nombre_instancia,
                 "heuristica": heur,
@@ -271,9 +278,15 @@ for ruta, etiqueta in archivos_benchmark:
             print(f"{etiqueta:<12} | {nombre_instancia:<15} | {config_nombre:<12} | {makespan_str:<10} | {str(tiempo_val):<12} | {n_exp:<12} | {status:<10}")
 
 print("-" * 105)
-
+if not registros:
+    raise RuntimeError(
+        "No instances were processed. Check the files in instances/."
+    )
 # Guardar logs automáticos en CSV
-csv_file = "resultados_weighted_a_star.csv"
+RESULTS_DIR = BASE_DIR / "results"
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+csv_file = RESULTS_DIR / "resultados_weighted_a_star.csv"
 campos = ["archivo_origen", "conjunto", "instancia", "heuristica", "peso_w", "configuracion", "makespan", "tiempo_segundos", "nodos_expandidos", "max_frontera", "status"]
 with open(csv_file, mode="w", newline="", encoding="utf-8") as f_csv:
     writer = csv.DictWriter(f_csv, fieldnames=campos)
@@ -282,7 +295,7 @@ with open(csv_file, mode="w", newline="", encoding="utf-8") as f_csv:
 print(f"Archivo CSV generado: {csv_file}")
 
 # Guardar logs automáticos en JSON
-json_file = "resultados_weighted_a_star.json"
+json_file = RESULTS_DIR / "resultados_weighted_a_star.json"
 with open(json_file, mode="w", encoding="utf-8") as f_json:
     json.dump(registros, f_json, indent=4)
 print(f"Archivo JSON generado: {json_file}")
