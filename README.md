@@ -23,7 +23,7 @@ This repository provides a modular, reproducible benchmark of three state-space 
 | `jsp_core.py` | Instance reader, representation, decoder and validator |
 | `sa.py` | Simulated annealing with swap and insert neighborhoods |
 | `run_experiments.py` | Experiments and ablation; writes the results to `results/` |
-| `W_A*.py` | Weighted A* implementation with H1/H2 heuristics and automatic CSV/JSON logging |
+| `weighted_a_star.py` | Weighted A* implementation with H1/H2 heuristics and automatic CSV/JSON logging |
 | `ids.py` | IDS implementation |
 
 
@@ -32,13 +32,13 @@ This repository provides a modular, reproducible benchmark of three state-space 
 
 The `instances/` directory contains the input datasets used by Weighted A*:
 
-- `benchmarkA*.txt`: standard benchmark instances.
+- `benchmarkA.txt`: standard benchmark instances.
 - `data_easy.txt`: generated JSSP instances.
   
 Each instance is declared using the keyword `instance`, followed by its identifier and a nested Python list of jobs. Each operation is represented by a pair `(machine_id, processing_time)`. Machine identifiers are zero-based.
 The Weighted A* experiments evaluate 22 instances in total: 20 generated instances and 2 standard benchmarks.
 
-## 1. Local Search
+### 1. Local Search
 
 Requires Python 3.8 or later; uses only the standard library.
 
@@ -55,7 +55,7 @@ python run_experiments.py --summary-only               # rebuilds summary.csv fr
 ### 2. Weighted A* — Heuristic Search
 Run the following command from the repository root:
 ```bash
-python3 'W_A*.py'
+python3 'weighted_a_star.py'
 ```
 The script automatically reads the JSSP instances from `instances/` and evaluates the H1 and H2 heuristics using weights $W \in \{1.0, 3.0, 5.0\}$.
 Each instance and configuration has a 60-second time limit. The experiments measure makespan, execution time, expanded nodes, maximum frontier size, and execution status.
