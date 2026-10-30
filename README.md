@@ -43,7 +43,6 @@ The Weighted A* experiments evaluate 22 instances in total: 20 generated instanc
 Requires Python 3.8 or later; uses only the standard library.
 
 ```
-python test_decode.py                                  # tests (a few seconds)
 python run_experiments.py --time 5 --seeds 3           # quick test (~2 min)
 python run_experiments.py                              # full experiment: 4 inst. x 2 neighborhoods x 10 seeds x 60 s
 python run_experiments.py --summary-only               # rebuilds summary.csv from runs.csv
