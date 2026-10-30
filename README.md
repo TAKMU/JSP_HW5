@@ -5,7 +5,7 @@
 
 ---
 
-## 1. Local Search
+## Resume
 This repository provides a modular, reproducible benchmark of three state-space search paradigms to solve the Job Shop Scheduling Problem (JSSP) minimizing makespan ($C_{\max}$):
 1. **Uninformed Search:** Iterative Depth Search (IDS).
 2. **Informed Heuristic Search:** Weighted A* ($W \in \{1.0, 3.0, 5.0\}$) equipped with Job-Bound ($H_1$) and Combined Job-and-Machine Bound ($H_2$) heuristics.
@@ -38,7 +38,7 @@ The `instances/` directory contains the input datasets used by Weighted A*:
 Each instance is declared using the keyword `instance`, followed by its identifier and a nested Python list of jobs. Each operation is represented by a pair `(machine_id, processing_time)`. Machine identifiers are zero-based.
 The Weighted A* experiments evaluate 22 instances in total: 20 generated instances and 2 standard benchmarks.
 
-## How to reproduce
+## 1. Local Search
 
 Requires Python 3.8 or later; uses only the standard library.
 
