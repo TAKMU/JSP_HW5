@@ -1,8 +1,0 @@
-name,makespan,optimal,timed_out,proven_lower_bound,time_to_best,total_time,searches,expanded_nodes,max_frontier
-abz5,,False,True,868,,60.000848172931,1,55941120,152
-abz6,,False,True,742,,60.00094299693592,1,57863168,158
-abz7,,False,True,556,,60.00042916298844,1,34318336,269
-abz8,,False,True,566,,60.001234953990206,1,33922048,222
-ft06,,False,True,47,,60.00032415299211,1,86071296,81
-la01,,False,True,666,,60.000605216948316,1,60419072,145
-la02,,False,True,635,,60.00067559094168,1,61635584,155

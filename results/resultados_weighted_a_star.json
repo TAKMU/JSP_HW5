@@ -1,6 +1,6 @@
 [
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "ft06",
         "heuristica": "H1",
@@ -8,12 +8,12 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 945940,
-        "max_frontera": 4723832,
+        "nodos_expandidos": 2075770,
+        "max_frontera": 10363979,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "ft06",
         "heuristica": "H1",
@@ -21,12 +21,12 @@
         "configuracion": "H1 (W=3.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 1652113,
-        "max_frontera": 4921534,
+        "nodos_expandidos": 4257658,
+        "max_frontera": 11930128,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "ft06",
         "heuristica": "H1",
@@ -34,12 +34,12 @@
         "configuracion": "H1 (W=5.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 2589389,
-        "max_frontera": 5439273,
+        "nodos_expandidos": 5255587,
+        "max_frontera": 10939004,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "ft06",
         "heuristica": "H2",
@@ -47,38 +47,38 @@
         "configuracion": "H2 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 733610,
-        "max_frontera": 3668046,
+        "nodos_expandidos": 1178770,
+        "max_frontera": 5893846,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "ft06",
         "heuristica": "H2",
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 77,
-        "tiempo_segundos": 23.735,
+        "tiempo_segundos": 13.8403,
         "nodos_expandidos": 1366707,
         "max_frontera": 1464718,
         "status": "FEASIBLE"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "ft06",
         "heuristica": "H2",
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 77,
-        "tiempo_segundos": 0.6185,
+        "tiempo_segundos": 0.3504,
         "nodos_expandidos": 36514,
         "max_frontera": 45377,
         "status": "FEASIBLE"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "la01",
         "heuristica": "H1",
@@ -86,12 +86,12 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 605544,
-        "max_frontera": 5449583,
+        "nodos_expandidos": 1233594,
+        "max_frontera": 11100952,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "la01",
         "heuristica": "H1",
@@ -99,12 +99,12 @@
         "configuracion": "H1 (W=3.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 954224,
-        "max_frontera": 4837858,
+        "nodos_expandidos": 1884924,
+        "max_frontera": 9394314,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "la01",
         "heuristica": "H1",
@@ -112,12 +112,12 @@
         "configuracion": "H1 (W=5.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 916813,
-        "max_frontera": 5442374,
+        "nodos_expandidos": 1873710,
+        "max_frontera": 10829174,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "la01",
         "heuristica": "H2",
@@ -125,12 +125,12 @@
         "configuracion": "H2 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 377260,
-        "max_frontera": 3395330,
+        "nodos_expandidos": 637983,
+        "max_frontera": 5741837,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "la01",
         "heuristica": "H2",
@@ -138,19 +138,19 @@
         "configuracion": "H2 (W=3.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 367010,
-        "max_frontera": 3303082,
+        "nodos_expandidos": 656709,
+        "max_frontera": 5910373,
         "status": "TIMEOUT"
     },
     {
-        "archivo_origen": "instances/benchmarkA*.txt",
+        "archivo_origen": "instances/benchmarkA.txt",
         "conjunto": "estandar",
         "instancia": "la01",
         "heuristica": "H2",
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 873,
-        "tiempo_segundos": 0.8733,
+        "tiempo_segundos": 0.4946,
         "nodos_expandidos": 9925,
         "max_frontera": 70138,
         "status": "FEASIBLE"
@@ -163,7 +163,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 9,
-        "tiempo_segundos": 0.0061,
+        "tiempo_segundos": 0.0034,
         "nodos_expandidos": 1474,
         "max_frontera": 1079,
         "status": "FEASIBLE"
@@ -176,7 +176,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 10,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 48,
         "max_frontera": 38,
         "status": "FEASIBLE"
@@ -202,7 +202,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 9,
-        "tiempo_segundos": 0.0036,
+        "tiempo_segundos": 0.0018,
         "nodos_expandidos": 497,
         "max_frontera": 518,
         "status": "FEASIBLE"
@@ -215,7 +215,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 10,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 16,
         "max_frontera": 25,
         "status": "FEASIBLE"
@@ -241,7 +241,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 16,
-        "tiempo_segundos": 0.0049,
+        "tiempo_segundos": 0.0024,
         "nodos_expandidos": 1139,
         "max_frontera": 980,
         "status": "FEASIBLE"
@@ -254,7 +254,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 16,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 57,
         "max_frontera": 59,
         "status": "FEASIBLE"
@@ -267,7 +267,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 16,
-        "tiempo_segundos": 0.0001,
+        "tiempo_segundos": 0.0,
         "nodos_expandidos": 20,
         "max_frontera": 20,
         "status": "FEASIBLE"
@@ -280,7 +280,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 16,
-        "tiempo_segundos": 0.0066,
+        "tiempo_segundos": 0.0026,
         "nodos_expandidos": 791,
         "max_frontera": 695,
         "status": "FEASIBLE"
@@ -319,7 +319,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 13,
-        "tiempo_segundos": 0.004,
+        "tiempo_segundos": 0.002,
         "nodos_expandidos": 1047,
         "max_frontera": 760,
         "status": "FEASIBLE"
@@ -332,7 +332,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 13,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 61,
         "max_frontera": 55,
         "status": "FEASIBLE"
@@ -345,7 +345,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 13,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 64,
         "max_frontera": 60,
         "status": "FEASIBLE"
@@ -358,7 +358,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 13,
-        "tiempo_segundos": 0.0056,
+        "tiempo_segundos": 0.0026,
         "nodos_expandidos": 711,
         "max_frontera": 716,
         "status": "FEASIBLE"
@@ -371,7 +371,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 17,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 31,
         "max_frontera": 31,
         "status": "FEASIBLE"
@@ -384,7 +384,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 19,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 26,
         "max_frontera": 26,
         "status": "FEASIBLE"
@@ -397,7 +397,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.0029,
+        "tiempo_segundos": 0.0014,
         "nodos_expandidos": 689,
         "max_frontera": 615,
         "status": "FEASIBLE"
@@ -410,7 +410,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 13,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0002,
         "nodos_expandidos": 86,
         "max_frontera": 82,
         "status": "FEASIBLE"
@@ -436,7 +436,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.0024,
+        "tiempo_segundos": 0.0011,
         "nodos_expandidos": 329,
         "max_frontera": 334,
         "status": "FEASIBLE"
@@ -462,7 +462,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.0001,
+        "tiempo_segundos": 0.0,
         "nodos_expandidos": 11,
         "max_frontera": 18,
         "status": "FEASIBLE"
@@ -475,7 +475,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 14,
-        "tiempo_segundos": 0.0038,
+        "tiempo_segundos": 0.0019,
         "nodos_expandidos": 957,
         "max_frontera": 780,
         "status": "FEASIBLE"
@@ -488,7 +488,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 15,
-        "tiempo_segundos": 0.0001,
+        "tiempo_segundos": 0.0,
         "nodos_expandidos": 23,
         "max_frontera": 22,
         "status": "FEASIBLE"
@@ -501,7 +501,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 15,
-        "tiempo_segundos": 0.0001,
+        "tiempo_segundos": 0.0,
         "nodos_expandidos": 18,
         "max_frontera": 18,
         "status": "FEASIBLE"
@@ -514,7 +514,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 14,
-        "tiempo_segundos": 0.0044,
+        "tiempo_segundos": 0.002,
         "nodos_expandidos": 569,
         "max_frontera": 585,
         "status": "FEASIBLE"
@@ -527,7 +527,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 15,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 20,
         "max_frontera": 24,
         "status": "FEASIBLE"
@@ -553,7 +553,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.0022,
+        "tiempo_segundos": 0.0011,
         "nodos_expandidos": 517,
         "max_frontera": 477,
         "status": "FEASIBLE"
@@ -566,7 +566,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 66,
         "max_frontera": 60,
         "status": "FEASIBLE"
@@ -579,7 +579,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 68,
         "max_frontera": 61,
         "status": "FEASIBLE"
@@ -592,7 +592,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.004,
+        "tiempo_segundos": 0.0019,
         "nodos_expandidos": 686,
         "max_frontera": 478,
         "status": "FEASIBLE"
@@ -631,7 +631,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 16,
-        "tiempo_segundos": 0.0037,
+        "tiempo_segundos": 0.0017,
         "nodos_expandidos": 819,
         "max_frontera": 710,
         "status": "FEASIBLE"
@@ -670,7 +670,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 16,
-        "tiempo_segundos": 0.0038,
+        "tiempo_segundos": 0.0018,
         "nodos_expandidos": 456,
         "max_frontera": 511,
         "status": "FEASIBLE"
@@ -683,7 +683,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 18,
-        "tiempo_segundos": 0.0001,
+        "tiempo_segundos": 0.0,
         "nodos_expandidos": 10,
         "max_frontera": 16,
         "status": "FEASIBLE"
@@ -696,7 +696,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 18,
-        "tiempo_segundos": 0.0001,
+        "tiempo_segundos": 0.0,
         "nodos_expandidos": 10,
         "max_frontera": 16,
         "status": "FEASIBLE"
@@ -709,7 +709,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.0045,
+        "tiempo_segundos": 0.002,
         "nodos_expandidos": 1100,
         "max_frontera": 752,
         "status": "FEASIBLE"
@@ -722,7 +722,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 12,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 52,
         "max_frontera": 48,
         "status": "FEASIBLE"
@@ -735,7 +735,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 17,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 45,
         "max_frontera": 43,
         "status": "FEASIBLE"
@@ -748,7 +748,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 11,
-        "tiempo_segundos": 0.0078,
+        "tiempo_segundos": 0.0035,
         "nodos_expandidos": 1234,
         "max_frontera": 797,
         "status": "FEASIBLE"
@@ -761,7 +761,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 12,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 37,
         "max_frontera": 42,
         "status": "FEASIBLE"
@@ -774,7 +774,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 12,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0002,
         "nodos_expandidos": 41,
         "max_frontera": 43,
         "status": "FEASIBLE"
@@ -787,7 +787,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 17,
-        "tiempo_segundos": 0.0045,
+        "tiempo_segundos": 0.0022,
         "nodos_expandidos": 1130,
         "max_frontera": 809,
         "status": "FEASIBLE"
@@ -826,7 +826,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 17,
-        "tiempo_segundos": 0.0045,
+        "tiempo_segundos": 0.0021,
         "nodos_expandidos": 559,
         "max_frontera": 631,
         "status": "FEASIBLE"
@@ -839,7 +839,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 17,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 17,
         "max_frontera": 29,
         "status": "FEASIBLE"
@@ -852,7 +852,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 21,
-        "tiempo_segundos": 0.0001,
+        "tiempo_segundos": 0.0,
         "nodos_expandidos": 12,
         "max_frontera": 13,
         "status": "FEASIBLE"
@@ -865,7 +865,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 20,
-        "tiempo_segundos": 0.0101,
+        "tiempo_segundos": 0.005,
         "nodos_expandidos": 2576,
         "max_frontera": 1458,
         "status": "FEASIBLE"
@@ -878,7 +878,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 23,
-        "tiempo_segundos": 0.0001,
+        "tiempo_segundos": 0.0,
         "nodos_expandidos": 16,
         "max_frontera": 14,
         "status": "FEASIBLE"
@@ -904,7 +904,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 20,
-        "tiempo_segundos": 0.0053,
+        "tiempo_segundos": 0.0024,
         "nodos_expandidos": 591,
         "max_frontera": 747,
         "status": "FEASIBLE"
@@ -917,7 +917,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 23,
-        "tiempo_segundos": 0.0006,
+        "tiempo_segundos": 0.0003,
         "nodos_expandidos": 57,
         "max_frontera": 110,
         "status": "FEASIBLE"
@@ -930,7 +930,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 23,
-        "tiempo_segundos": 0.0002,
+        "tiempo_segundos": 0.0001,
         "nodos_expandidos": 22,
         "max_frontera": 40,
         "status": "FEASIBLE"
@@ -944,8 +944,8 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 3001606,
-        "max_frontera": 3398590,
+        "nodos_expandidos": 3660932,
+        "max_frontera": 3927226,
         "status": "TIMEOUT"
     },
     {
@@ -956,7 +956,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 35,
-        "tiempo_segundos": 0.0116,
+        "tiempo_segundos": 0.0054,
         "nodos_expandidos": 1561,
         "max_frontera": 1801,
         "status": "FEASIBLE"
@@ -969,7 +969,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 50,
-        "tiempo_segundos": 0.0011,
+        "tiempo_segundos": 0.0004,
         "nodos_expandidos": 152,
         "max_frontera": 159,
         "status": "FEASIBLE"
@@ -982,7 +982,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 29,
-        "tiempo_segundos": 25.63,
+        "tiempo_segundos": 23.0544,
         "nodos_expandidos": 1398121,
         "max_frontera": 1568629,
         "status": "FEASIBLE"
@@ -995,7 +995,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 37,
-        "tiempo_segundos": 0.0105,
+        "tiempo_segundos": 0.0059,
         "nodos_expandidos": 626,
         "max_frontera": 1359,
         "status": "FEASIBLE"
@@ -1008,7 +1008,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 37,
-        "tiempo_segundos": 0.0012,
+        "tiempo_segundos": 0.0005,
         "nodos_expandidos": 73,
         "max_frontera": 155,
         "status": "FEASIBLE"
@@ -1022,8 +1022,8 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 2539867,
-        "max_frontera": 3645448,
+        "nodos_expandidos": 3406994,
+        "max_frontera": 4407542,
         "status": "TIMEOUT"
     },
     {
@@ -1034,7 +1034,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 40,
-        "tiempo_segundos": 0.0067,
+        "tiempo_segundos": 0.004,
         "nodos_expandidos": 1062,
         "max_frontera": 1248,
         "status": "FEASIBLE"
@@ -1047,7 +1047,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 40,
-        "tiempo_segundos": 0.0081,
+        "tiempo_segundos": 0.0036,
         "nodos_expandidos": 1242,
         "max_frontera": 1437,
         "status": "FEASIBLE"
@@ -1060,7 +1060,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 33,
-        "tiempo_segundos": 56.97,
+        "tiempo_segundos": 37.8325,
         "nodos_expandidos": 2408082,
         "max_frontera": 3237621,
         "status": "FEASIBLE"
@@ -1073,7 +1073,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 39,
-        "tiempo_segundos": 0.0006,
+        "tiempo_segundos": 0.0003,
         "nodos_expandidos": 34,
         "max_frontera": 65,
         "status": "FEASIBLE"
@@ -1086,7 +1086,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 39,
-        "tiempo_segundos": 0.0003,
+        "tiempo_segundos": 0.0002,
         "nodos_expandidos": 27,
         "max_frontera": 44,
         "status": "FEASIBLE"
@@ -1100,8 +1100,8 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 2786913,
-        "max_frontera": 3843064,
+        "nodos_expandidos": 3589496,
+        "max_frontera": 4988248,
         "status": "TIMEOUT"
     },
     {
@@ -1112,7 +1112,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 47,
-        "tiempo_segundos": 0.0034,
+        "tiempo_segundos": 0.0019,
         "nodos_expandidos": 384,
         "max_frontera": 577,
         "status": "FEASIBLE"
@@ -1125,7 +1125,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 48,
-        "tiempo_segundos": 0.0007,
+        "tiempo_segundos": 0.0003,
         "nodos_expandidos": 118,
         "max_frontera": 190,
         "status": "FEASIBLE"
@@ -1138,7 +1138,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 36,
-        "tiempo_segundos": 36.7979,
+        "tiempo_segundos": 35.5838,
         "nodos_expandidos": 1822673,
         "max_frontera": 2636594,
         "status": "FEASIBLE"
@@ -1151,7 +1151,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 46,
-        "tiempo_segundos": 0.0011,
+        "tiempo_segundos": 0.0006,
         "nodos_expandidos": 93,
         "max_frontera": 115,
         "status": "FEASIBLE"
@@ -1164,7 +1164,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 56,
-        "tiempo_segundos": 0.0028,
+        "tiempo_segundos": 0.0015,
         "nodos_expandidos": 250,
         "max_frontera": 295,
         "status": "FEASIBLE"
@@ -1178,8 +1178,8 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 2559410,
-        "max_frontera": 3211589,
+        "nodos_expandidos": 3297898,
+        "max_frontera": 3764161,
         "status": "TIMEOUT"
     },
     {
@@ -1190,7 +1190,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 45,
-        "tiempo_segundos": 0.0162,
+        "tiempo_segundos": 0.0088,
         "nodos_expandidos": 2711,
         "max_frontera": 2997,
         "status": "FEASIBLE"
@@ -1203,7 +1203,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 45,
-        "tiempo_segundos": 0.0123,
+        "tiempo_segundos": 0.0056,
         "nodos_expandidos": 2028,
         "max_frontera": 2193,
         "status": "FEASIBLE"
@@ -1216,7 +1216,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 34,
-        "tiempo_segundos": 27.577,
+        "tiempo_segundos": 26.3757,
         "nodos_expandidos": 1397111,
         "max_frontera": 2078182,
         "status": "FEASIBLE"
@@ -1229,7 +1229,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 35,
-        "tiempo_segundos": 0.0018,
+        "tiempo_segundos": 0.001,
         "nodos_expandidos": 100,
         "max_frontera": 266,
         "status": "FEASIBLE"
@@ -1242,7 +1242,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 35,
-        "tiempo_segundos": 0.0008,
+        "tiempo_segundos": 0.0006,
         "nodos_expandidos": 49,
         "max_frontera": 120,
         "status": "FEASIBLE"
@@ -1256,8 +1256,8 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 3073268,
-        "max_frontera": 3469555,
+        "nodos_expandidos": 3428836,
+        "max_frontera": 3731439,
         "status": "TIMEOUT"
     },
     {
@@ -1268,7 +1268,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 37,
-        "tiempo_segundos": 0.0036,
+        "tiempo_segundos": 0.0021,
         "nodos_expandidos": 650,
         "max_frontera": 628,
         "status": "FEASIBLE"
@@ -1281,7 +1281,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 37,
-        "tiempo_segundos": 0.0038,
+        "tiempo_segundos": 0.0019,
         "nodos_expandidos": 777,
         "max_frontera": 737,
         "status": "FEASIBLE"
@@ -1293,11 +1293,11 @@
         "heuristica": "H2",
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
-        "makespan": null,
-        "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 2041587,
-        "max_frontera": 3249795,
-        "status": "TIMEOUT"
+        "makespan": 32,
+        "tiempo_segundos": 50.7708,
+        "nodos_expandidos": 3193121,
+        "max_frontera": 3564645,
+        "status": "FEASIBLE"
     },
     {
         "archivo_origen": "instances/data_easy.txt",
@@ -1307,7 +1307,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 40,
-        "tiempo_segundos": 0.0032,
+        "tiempo_segundos": 0.0017,
         "nodos_expandidos": 158,
         "max_frontera": 415,
         "status": "FEASIBLE"
@@ -1320,7 +1320,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 43,
-        "tiempo_segundos": 0.0011,
+        "tiempo_segundos": 0.0005,
         "nodos_expandidos": 65,
         "max_frontera": 142,
         "status": "FEASIBLE"
@@ -1333,7 +1333,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 36,
-        "tiempo_segundos": 5.4587,
+        "tiempo_segundos": 6.4058,
         "nodos_expandidos": 514489,
         "max_frontera": 591075,
         "status": "FEASIBLE"
@@ -1346,7 +1346,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 49,
-        "tiempo_segundos": 0.0026,
+        "tiempo_segundos": 0.0016,
         "nodos_expandidos": 404,
         "max_frontera": 659,
         "status": "FEASIBLE"
@@ -1359,7 +1359,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 54,
-        "tiempo_segundos": 0.0022,
+        "tiempo_segundos": 0.0012,
         "nodos_expandidos": 373,
         "max_frontera": 598,
         "status": "FEASIBLE"
@@ -1372,7 +1372,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 36,
-        "tiempo_segundos": 2.0291,
+        "tiempo_segundos": 1.2235,
         "nodos_expandidos": 115619,
         "max_frontera": 146522,
         "status": "FEASIBLE"
@@ -1385,7 +1385,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 42,
-        "tiempo_segundos": 0.0021,
+        "tiempo_segundos": 0.0011,
         "nodos_expandidos": 213,
         "max_frontera": 230,
         "status": "FEASIBLE"
@@ -1398,7 +1398,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 42,
-        "tiempo_segundos": 0.0012,
+        "tiempo_segundos": 0.0006,
         "nodos_expandidos": 110,
         "max_frontera": 140,
         "status": "FEASIBLE"
@@ -1411,7 +1411,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 35,
-        "tiempo_segundos": 14.2305,
+        "tiempo_segundos": 18.1463,
         "nodos_expandidos": 1095812,
         "max_frontera": 1281107,
         "status": "FEASIBLE"
@@ -1424,7 +1424,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 35,
-        "tiempo_segundos": 0.0015,
+        "tiempo_segundos": 0.0009,
         "nodos_expandidos": 292,
         "max_frontera": 334,
         "status": "FEASIBLE"
@@ -1437,7 +1437,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 35,
-        "tiempo_segundos": 0.0014,
+        "tiempo_segundos": 0.0008,
         "nodos_expandidos": 292,
         "max_frontera": 334,
         "status": "FEASIBLE"
@@ -1450,7 +1450,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 35,
-        "tiempo_segundos": 12.49,
+        "tiempo_segundos": 12.7929,
         "nodos_expandidos": 683879,
         "max_frontera": 822415,
         "status": "FEASIBLE"
@@ -1463,7 +1463,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 35,
-        "tiempo_segundos": 0.0044,
+        "tiempo_segundos": 0.0025,
         "nodos_expandidos": 428,
         "max_frontera": 470,
         "status": "FEASIBLE"
@@ -1476,7 +1476,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 35,
-        "tiempo_segundos": 0.0056,
+        "tiempo_segundos": 0.0026,
         "nodos_expandidos": 502,
         "max_frontera": 547,
         "status": "FEASIBLE"
@@ -1489,7 +1489,7 @@
         "peso_w": 1.0,
         "configuracion": "H1 (W=1.0)",
         "makespan": 33,
-        "tiempo_segundos": 16.356,
+        "tiempo_segundos": 20.8746,
         "nodos_expandidos": 1112348,
         "max_frontera": 1425321,
         "status": "FEASIBLE"
@@ -1502,7 +1502,7 @@
         "peso_w": 3.0,
         "configuracion": "H1 (W=3.0)",
         "makespan": 41,
-        "tiempo_segundos": 0.0017,
+        "tiempo_segundos": 0.001,
         "nodos_expandidos": 314,
         "max_frontera": 343,
         "status": "FEASIBLE"
@@ -1515,7 +1515,7 @@
         "peso_w": 5.0,
         "configuracion": "H1 (W=5.0)",
         "makespan": 47,
-        "tiempo_segundos": 0.0074,
+        "tiempo_segundos": 0.0039,
         "nodos_expandidos": 1264,
         "max_frontera": 1282,
         "status": "FEASIBLE"
@@ -1528,7 +1528,7 @@
         "peso_w": 1.0,
         "configuracion": "H2 (W=1.0)",
         "makespan": 33,
-        "tiempo_segundos": 4.2904,
+        "tiempo_segundos": 2.7053,
         "nodos_expandidos": 229824,
         "max_frontera": 282783,
         "status": "FEASIBLE"
@@ -1541,7 +1541,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 37,
-        "tiempo_segundos": 0.0043,
+        "tiempo_segundos": 0.0024,
         "nodos_expandidos": 238,
         "max_frontera": 647,
         "status": "FEASIBLE"
@@ -1554,7 +1554,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 37,
-        "tiempo_segundos": 0.0047,
+        "tiempo_segundos": 0.0022,
         "nodos_expandidos": 292,
         "max_frontera": 624,
         "status": "FEASIBLE"
@@ -1568,8 +1568,8 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 922833,
-        "max_frontera": 4611669,
+        "nodos_expandidos": 2050582,
+        "max_frontera": 10243004,
         "status": "TIMEOUT"
     },
     {
@@ -1581,8 +1581,8 @@
         "configuracion": "H1 (W=3.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 1944778,
-        "max_frontera": 5112959,
+        "nodos_expandidos": 4427409,
+        "max_frontera": 9774107,
         "status": "TIMEOUT"
     },
     {
@@ -1594,8 +1594,8 @@
         "configuracion": "H1 (W=5.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 3137196,
-        "max_frontera": 4468831,
+        "nodos_expandidos": 5713662,
+        "max_frontera": 7271977,
         "status": "TIMEOUT"
     },
     {
@@ -1607,8 +1607,8 @@
         "configuracion": "H2 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 760719,
-        "max_frontera": 3803429,
+        "nodos_expandidos": 1160751,
+        "max_frontera": 5802809,
         "status": "TIMEOUT"
     },
     {
@@ -1619,7 +1619,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 126,
-        "tiempo_segundos": 25.6212,
+        "tiempo_segundos": 13.7171,
         "nodos_expandidos": 720830,
         "max_frontera": 1694087,
         "status": "FEASIBLE"
@@ -1632,7 +1632,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 145,
-        "tiempo_segundos": 0.4261,
+        "tiempo_segundos": 0.2431,
         "nodos_expandidos": 24169,
         "max_frontera": 32310,
         "status": "FEASIBLE"
@@ -1646,8 +1646,8 @@
         "configuracion": "H1 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 750773,
-        "max_frontera": 3750713,
+        "nodos_expandidos": 1977560,
+        "max_frontera": 9874102,
         "status": "TIMEOUT"
     },
     {
@@ -1659,8 +1659,8 @@
         "configuracion": "H1 (W=3.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 2066321,
-        "max_frontera": 5023611,
+        "nodos_expandidos": 3863658,
+        "max_frontera": 9151823,
         "status": "TIMEOUT"
     },
     {
@@ -1672,8 +1672,8 @@
         "configuracion": "H1 (W=5.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 1677570,
-        "max_frontera": 4073344,
+        "nodos_expandidos": 3615789,
+        "max_frontera": 8415111,
         "status": "TIMEOUT"
     },
     {
@@ -1685,8 +1685,8 @@
         "configuracion": "H2 (W=1.0)",
         "makespan": null,
         "tiempo_segundos": ">60.0",
-        "nodos_expandidos": 530409,
-        "max_frontera": 2652041,
+        "nodos_expandidos": 1045974,
+        "max_frontera": 5229866,
         "status": "TIMEOUT"
     },
     {
@@ -1697,7 +1697,7 @@
         "peso_w": 3.0,
         "configuracion": "H2 (W=3.0)",
         "makespan": 151,
-        "tiempo_segundos": 49.0089,
+        "tiempo_segundos": 15.836,
         "nodos_expandidos": 447585,
         "max_frontera": 1849914,
         "status": "FEASIBLE"
@@ -1710,7 +1710,7 @@
         "peso_w": 5.0,
         "configuracion": "H2 (W=5.0)",
         "makespan": 194,
-        "tiempo_segundos": 50.1993,
+        "tiempo_segundos": 23.3905,
         "nodos_expandidos": 1603742,
         "max_frontera": 1624442,
         "status": "FEASIBLE"

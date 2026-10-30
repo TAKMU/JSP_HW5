@@ -19,6 +19,7 @@ This repository provides a modular, reproducible benchmark of three state-space 
 
 | File | Purpose |
 |---|---|
+| `script_run.sh` | Script to run the generator and all the search algorithms |
 | `generate_instances.py` | Instance generator; writes instances to `instances/` |
 | `jsp_core.py` | Instance reader, representation, decoder and validator |
 | `sa.py` | Simulated annealing with swap and insert neighborhoods |
@@ -37,6 +38,16 @@ The `instances/` directory contains the input datasets used by Weighted A*:
   
 Each instance is declared using the keyword `instance`, followed by its identifier and a nested Python list of jobs. Each operation is represented by a pair `(machine_id, processing_time)`. Machine identifiers are zero-based.
 The Weighted A* experiments evaluate 22 instances in total: 20 generated instances and 2 standard benchmarks.
+
+## How to run
+You can run the algorithms one by one or run all the algorithms with a script. 
+All algorithms use Python 3.8 or later with the standard libraries. 
+
+To run the script:
+```
+sudo chmod +x script_run.s                             
+./script_run.sh                                        
+```
 
 ### 1. Local Search
 
@@ -85,6 +96,7 @@ python3 ids.py -i INPUT_FILE -o OUTPUTFILE -n INSTANCE_NAME
 
 ## Results (`results/`)
 
+### Local Search
 - `config.json`: parameters, seeds, Python version and machine.
 - `runs.csv`: one row per run (makespan, gap, whether it reached the BKS, time to best, iterations…).
 - `history.csv`: convergence curve of each run.

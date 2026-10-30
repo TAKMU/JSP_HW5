@@ -3,10 +3,7 @@ import time
 import jsp_core
 import csv
  
- 
-# Time limit settings
-USE_TIME_LIMIT = True     # False: run until the optimum is proven
-TIME_LIMIT = 60.0         # seconds
+
 CHECK_EVERY = 1024        # check the clock every this many expanded nodes
 import argparse
 

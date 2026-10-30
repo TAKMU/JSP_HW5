@@ -1,0 +1,8 @@
+name,makespan,optimal,timed_out,proven_lower_bound,time_to_best,total_time,searches,expanded_nodes,max_frontier
+abz5,,False,True,868,,60.0005960019771,1,54003712,152
+abz6,,False,True,742,,60.000717345043086,1,55133184,158
+abz7,,False,True,556,,60.001741001033224,1,33542144,269
+abz8,,False,True,566,,60.00085416599177,1,32969728,222
+ft06,,False,True,47,,60.00003950402606,1,85132288,81
+la01,,False,True,666,,60.000790740014054,1,56843264,145
+la02,,False,True,635,,60.00028815108817,1,58192896,155
