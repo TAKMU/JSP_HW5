@@ -3,7 +3,7 @@ import random
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-DEFAULT_OUT = "./data/data_easy.txt"
+DEFAULT_OUT = "./instances/data_generated.txt"
 
 CONFIG = {
     "easy":   {"count": 10, "jobs": 3,  "machines": 3,  "min_time": 1, "max_time": 5},

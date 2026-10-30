@@ -1,0 +1,2 @@
+,name,makespan,optimal,timed_out,proven_lower_bound,time_to_best,total_time,searches,expanded_nodes,max_frontier
+0,ft06,55,True,False,55,305.2342005359242,1625.6058316439157,3,2601488617,87

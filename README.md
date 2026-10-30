@@ -7,7 +7,7 @@
 
 ## 1. Overview and Architecture
 This repository provides a modular, reproducible benchmark of three state-space search paradigms to solve the Job Shop Scheduling Problem (JSSP) minimizing makespan ($C_{\max}$):
-1. **Uninformed Search:** Iterative Cost-Bounding Search (Cost-Bounded DFS / IDMS).
+1. **Uninformed Search:** Iterative Depth Search (IDS).
 2. **Informed Heuristic Search:** Weighted A* ($W \in \{1.0, 3.0, 5.0\}$) equipped with Job-Bound ($H_1$) and Combined Job-and-Machine Bound ($H_2$) heuristics.
 3. **Local Search:** Simulated Annealing comparing Pairwise Swap ($\mathcal{N}_1$) and Shift/Insertion ($\mathcal{N}_2$) neighborhoods with adaptive temperature schedules.
 
@@ -19,10 +19,13 @@ This repository provides a modular, reproducible benchmark of three state-space 
 
 | File | Purpose |
 |---|---|
+| `generate_instances.py` | Instance generator; writes instances to `instances/` |
 | `jsp_core.py` | Instance reader, representation, decoder and validator |
 | `sa.py` | Simulated annealing with swap and insert neighborhoods |
 | `run_experiments.py` | Experiments and ablation; writes the results to `results/` |
 | `W_A*.py` | Weighted A* implementation with H1/H2 heuristics and automatic CSV/JSON logging |
+| `ids.py` | IDS implementation |
+
 
 ## Data
 ### Weighted A* Instances
@@ -63,6 +66,25 @@ The script automatically generates the following logs:
   
 These files are generated automatically when the script finishes and can be used to reproduce the experimental comparisons.
 
+### IDS
+Run the following command from the repository root:
+```bash
+python3 ids.py -i INPUT_FILE -o OUTPUTFILE
+```
+If you want to run the algorithm without the time limit
+```bash
+python3 ids.py -i INPUT_FILE -o OUTPUTFILE --no-timeout
+```
+If you want to run the algorithm with a specific time limit
+```bash
+python3 ids.py -i INPUT_FILE -o OUTPUTFILE -tl 60.0
+```
+If you want to run the algorithm on a specific instance
+If you want to run the algorithm without the time limit
+```bash
+python3 ids.py -i INPUT_FILE -o OUTPUTFILE -n INSTANCE_NAME
+```
+
 ## Results (`results/`)
 
 - `config.json`: parameters, seeds, Python version and machine.
@@ -74,3 +96,9 @@ These files are generated automatically when the script finishes and can be used
 - `resultados_weighted_a_star.csv`: automatically generated experimental records for H1 and H2 with weights 1.0, 3.0, and 5.0.
 - `resultados_weighted_a_star.json`: JSON version of the same experimental records.
 Both files contain the instance identifier, heuristic, weight, makespan, execution time, expanded nodes, maximum frontier size, and execution status (`FEASIBLE`, `TIMEOUT`, or `NO_SOLUTION`).
+
+### IDS Results
+- `report_ids_benchmark_without_limit.csv`: Generated to check instance FT06
+- `report_ids_benchmark.csv`: Generated to solve instances of benchmark
+- `report_ids_generated_without_timelimit.csv`: Generated to solve generated instances without time limit
+- `report_ids_generated.csv`: Generated to solve generated instances
