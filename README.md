@@ -5,7 +5,7 @@
 
 ---
 
-## 1. Overview and Architecture
+## 1. Local Search
 This repository provides a modular, reproducible benchmark of three state-space search paradigms to solve the Job Shop Scheduling Problem (JSSP) minimizing makespan ($C_{\max}$):
 1. **Uninformed Search:** Iterative Depth Search (IDS).
 2. **Informed Heuristic Search:** Weighted A* ($W \in \{1.0, 3.0, 5.0\}$) equipped with Job-Bound ($H_1$) and Combined Job-and-Machine Bound ($H_2$) heuristics.
@@ -52,7 +52,7 @@ python run_experiments.py --summary-only               # rebuilds summary.csv fr
 `--workers N` runs N processes in parallel. Since the limit is time-based, do not use more processes than physical cores.
 
 
-### Weighted A* — Heuristic Search
+### 2. Weighted A* — Heuristic Search
 Run the following command from the repository root:
 ```bash
 python3 'W_A*.py'
@@ -66,7 +66,7 @@ The script automatically generates the following logs:
   
 These files are generated automatically when the script finishes and can be used to reproduce the experimental comparisons.
 
-### IDS
+### 3. IDS
 Run the following command from the repository root:
 ```bash
 python3 ids.py -i INPUT_FILE -o OUTPUTFILE
