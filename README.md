@@ -80,7 +80,6 @@ If you want to run the algorithm with a specific time limit
 python3 ids.py -i INPUT_FILE -o OUTPUTFILE -tl 60.0
 ```
 If you want to run the algorithm on a specific instance
-If you want to run the algorithm without the time limit
 ```bash
 python3 ids.py -i INPUT_FILE -o OUTPUTFILE -n INSTANCE_NAME
 ```
