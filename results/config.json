@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-29T19:38:41",
+  "command": "run_experiments.py",
+  "data_file": "instances/data.txt",
+  "instances": [
+    "abz5",
+    "abz6",
+    "abz7",
+    "abz8",
+    "ft06",
+    "la01",
+    "la02"
+  ],
+  "neighborhoods": [
+    "swap",
+    "insert"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "time_limit_s": 60.0,
+  "workers": 7,
+  "sa_parameters": {
+    "alpha": 0.97,
+    "t_min": 0.1,
+    "iters_per_temp": null
+  },
+  "python": "3.13.13",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "cpu_count_logical": 32,
+  "reference_values": {
+    "abz5": {
+      "bks": 1234,
+      "lb": 1234
+    },
+    "abz6": {
+      "bks": 943,
+      "lb": 943
+    },
+    "abz7": {
+      "bks": 656,
+      "lb": 656
+    },
+    "abz8": {
+      "bks": 665,
+      "lb": 648
+    }
+  }
+}
