@@ -1,3 +1,5 @@
+calculate_ids.py
+calculate_ids.ipynb
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
