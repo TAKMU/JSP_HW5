@@ -220,7 +220,7 @@ def parse_instances(file_content_or_path):
 
 
 archivos_benchmark = [
-    (BASE_DIR / "instances" / "benchmarkA*.txt", "estandar"),
+    (BASE_DIR / "instances" / "benchmarkA.txt", "estandar"),
     (BASE_DIR / "instances" / "data_easy.txt", "generada")
 ]
 
